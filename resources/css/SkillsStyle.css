@@ -1,0 +1,124 @@
+html {
+    background-color: black;
+}
+
+.skills {
+    background-color: rgb(203, 220, 247);
+    height: 1000px;
+
+    position: relative;
+}
+
+.skillsHeader {
+    background-color: rgb(132, 173, 234);
+    height: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skillsMain h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.front-end h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+
+    margin-top: 2%;
+}
+
+.frontArea {
+    margin-top: 1.5%;
+    background-color: rgba(164, 194, 241, 0.4);
+    
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+    height: 150px;
+    margin-left: 35%;
+}
+
+#frontItem1 {
+    margin-top: 4%;
+}
+
+#frontItem2 {
+    margin-top: 4%;
+}
+
+#frontItem3 {
+    margin-top: 4%;
+}
+
+.back-end h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+
+    margin-top: 5%;
+}
+
+.backArea {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(164, 194, 241, 0.4);
+    width: 30%;
+    height: 150px;
+    margin-left: 35%;
+}
+
+#javaItem1 {
+    margin-top: 4%;
+}
+
+.etc h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.etcArea {
+    margin-top: 1.5%;
+    display: flex;
+
+    gap: 2%;
+
+    background-color: rgba(164, 194, 241, 0.4);
+    width: 30%;
+    height: 150px;
+    margin-left: 35%;
+}
+
+#etcItem1 {
+    margin-top: 4%;
+}
+
+#etcItem2 {
+    margin-top: 4%;
+}
+
+#etcItem3 {
+    margin-top: 4%;
+}
+
+#etcItem4 {
+    margin-top: 4%;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(132, 173, 234);
+    width: 100%;
+    bottom: 0%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}

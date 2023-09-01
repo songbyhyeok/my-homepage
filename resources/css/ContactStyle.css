@@ -1,0 +1,41 @@
+html {
+    background-color: black;
+}
+
+.contact {
+    background-color: rgb(203, 220, 247);
+    height: 880px;
+
+    position: relative;
+}
+
+.contactHeader{
+    background-color: rgb(132, 173, 234);
+    height: 3%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactArticle {
+    background-color: rgb(164, 194, 241);
+    width: 70%;
+    height: 35%;
+    margin: 10% auto;
+}
+
+.gitHub {
+    position: absolute;
+    left: 45%;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(132, 173, 234);
+    width: 100%;
+    bottom: 0%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}

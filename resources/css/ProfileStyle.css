@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+}
+
+.profile {
+    background-color: rgb(203, 220, 247);
+    height: 980px;
+    position: relative;
+}
+
+.profileHeader {
+    background-color: rgb(132, 173, 234);
+    text-align: center;
+    font-weight: bold;
+}
+
+.profileMain {
+
+}
+
+.selfie{
+    background-color: rgb(164, 194, 241);
+    width: 35%;
+    height: 200px;
+    margin: 8% auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.selfie #selfieId {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    margin: auto auto;
+}
+
+.profileText {
+    width: 50%;
+    margin: -4% auto;
+    line-height: 250%;
+    background-color: rgb(164, 194, 241);
+    border-radius: 3%;
+    text-align: left;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(132, 173, 234);
+    width: 100%;
+    bottom: 0%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}

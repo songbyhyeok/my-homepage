@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+}
+
+.intro {
+    background-color: rgb(203, 220, 247);
+    height: 880px;
+    position: relative;
+}
+
+.introHeader {
+    background-color: rgb(132, 173, 234);
+    text-align: center;
+    font-weight: bold;
+}
+
+.introArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introArticle h2{
+    position: absolute;
+    top: 25%;
+    color: rgb(86, 141, 229);
+    font-size: 2.0rem;
+}
+
+.introArticle .introText{
+    position: absolute;
+    top: 30%;
+    font-size: 2.0rem;
+}
+
+.enterDiv {
+    position: absolute;
+    top: 50%;
+    width: 15%;
+    height: 10%;
+    background-color: rgb(164, 194, 241);
+    border-radius: 100%;
+}
+
+.hiddenSquare {
+    height: 100%;
+    background-color: rgba(185, 201, 226, 0);
+}
+
+.hiddenSquare:hover {
+    background-color: rgba(185, 201, 226, 0.5);
+}
+
+#enterLink {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: black;
+}
+
+#enterLinkText {
+    position: absolute;
+    width: 100px;
+    font-weight: bold;
+    left: 44px;
+    font-size: 1.2rem;
+}
+
+.introTextId {
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(132, 173, 234);
+    bottom: 0%;
+    width: 100%;
+}
+
+footer p{
+    font-weight: bold;
+    text-align: center;
+    
+}
